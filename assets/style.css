@@ -1,3 +1,8 @@
 body {
   background-color: black;
+  overflow-x: hidden;
+}
+
+#desktop-header {
+  background-attachment: fixed;
 }
