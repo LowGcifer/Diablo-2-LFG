@@ -1,6 +1,7 @@
 import Header from "../components/Header";
 import "../style.css";
-import CreateButton from "../components/Create";
+import CreateButton from "../components/CreateButton";
+import SearchButton from "../components/SearchButton";
 
 const Home = () => {
   return (
@@ -15,6 +16,7 @@ const Home = () => {
         fits your criteria!
       </p>
       <CreateButton></CreateButton>
+      <SearchButton></SearchButton>
     </div>
   );
 };

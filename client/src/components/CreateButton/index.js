@@ -2,7 +2,7 @@ import React from "react";
 import "../../style.css";
 
 function CreateButton() {
-  return <button id="create">CreaTe Group</button>;
+  return <button class="main-buttons">CreaTe Group</button>;
 }
 
 export default CreateButton;

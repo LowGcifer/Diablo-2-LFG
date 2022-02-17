@@ -32,7 +32,7 @@ h1 {
   font-style: normal;
 }
 
-#create {
+.main-buttons {
   width: 284px;
   height: 124px;
   border-color: #940005;
@@ -41,4 +41,5 @@ h1 {
   font-family: exocetlight;
   text-align: center;
   font-size: 20px;
+  font-weight: 700;
 }
