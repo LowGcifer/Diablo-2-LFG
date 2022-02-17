@@ -1,5 +1,6 @@
 import Header from "../components/Header";
 import "../style.css";
+import CreateButton from "../components/Create";
 
 const Home = () => {
   return (
@@ -13,6 +14,7 @@ const Home = () => {
         Create your own group with your own parameters, or search for one that
         fits your criteria!
       </p>
+      <CreateButton></CreateButton>
     </div>
   );
 };
