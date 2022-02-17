@@ -1,0 +1,24 @@
+body {
+  background-color: black;
+  overflow-x: hidden;
+}
+
+#desktop-header {
+  background-attachment: fixed;
+}
+
+h1 {
+  color: #828282;
+  text-align: center;
+  font-size: 30pt;
+  /* padding-top: 20px; */
+}
+
+#intro {
+  color: #828282;
+  font-size: 20pt;
+  text-align: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  /* padding-top: 29px; */
+}
