@@ -4,7 +4,12 @@ body {
 }
 
 #desktop-header {
+  background-image: url("./components/Header/LFGLogo.png");
+  height: 900px;
   background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 h1 {
@@ -52,4 +57,9 @@ h1 {
 #search-button {
   position: absolute;
   right: 626px;
+}
+
+#create-window {
+  width: 932px;
+  height: 723px;
 }
