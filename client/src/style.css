@@ -43,3 +43,13 @@ h1 {
   font-size: 20px;
   font-weight: 700;
 }
+
+#create-button {
+  position: absolute;
+  left: 626px;
+}
+
+#search-button {
+  position: absolute;
+  right: 626px;
+}
