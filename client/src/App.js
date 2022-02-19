@@ -2,8 +2,17 @@ import logo from "./logo.svg";
 import "./App.css";
 import Header from "./components/Header";
 import Home from "./pages/Home.js";
+import React from "react";
 
 function App() {
+  const [data, setData] = React.useState(null);
+
+  React.useEffect(() => {
+    fetch("/api")
+      .then((res) => res.json())
+      .then((data) => setData(data.message));
+  }, []);
+
   return (
     <Home />
     // <div className="App">
