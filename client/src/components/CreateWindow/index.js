@@ -4,7 +4,7 @@ import "../../style.css";
 function CreateWindow() {
   return (
     <div id="create-window">
-      <form class="create-header">
+      <form id="create-name" class="create-header">
         {" "}
         Your Name*{" "}
         <br>
@@ -12,14 +12,14 @@ function CreateWindow() {
           <input class="your-name" type="text" name="playername"></input>
         </br>{" "}
       </form>
-      <form class="create-header">
+      <form id="create-title" class="create-header">
         {" "}
         Group TiTle*{" "}
         <br>
           <input class="group-title" type="text" name="groupname"></input>
         </br>
       </form>
-      <form class="create-header">
+      <form id="player-class" class="create-header">
         <label for="player-class">Your Class*</label>{" "}
         <br>
           <select name="player-class" id="player-classes">
@@ -34,7 +34,7 @@ function CreateWindow() {
         </br>
       </form>
 
-      <form class="create-header">
+      <form id="create-difficulty" class="create-header">
         <label for="group-difficulty">DifficulTy*</label>
         <br>
           <select name="group-difficulty" id="group-difficulties">
@@ -45,21 +45,21 @@ function CreateWindow() {
         </br>
       </form>
 
-      <form class="create-header">
+      <form id="creator-level" class="create-header">
         Your Level*
         <br>
           <input class="your-level" type="text" name="creatorlevel"></input>
         </br>
       </form>
 
-      <form class="create-header">
+      <form id="group-activity" class="create-header">
         AcTiviTy
         <br>
           <input class="activity" type="text" name="groupactivity"></input>
         </br>
       </form>
 
-      <form class="create-header">
+      <form id="group-description" class="create-header">
         DescripTion
         <br>
           <input
@@ -70,7 +70,7 @@ function CreateWindow() {
         </br>
       </form>
 
-      <form class="create-header">
+      <form id="your-platform" class="create-header">
         <label for="group-platform">PlaTform</label>
         <br>
           <select name="group-platform" id="group-platform">
