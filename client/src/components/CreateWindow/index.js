@@ -4,6 +4,7 @@ import "../../style.css";
 function CreateWindow() {
   return (
     <div id="create-window">
+      {/* Creator Name */}
       <form id="create-name" class="create-header">
         {" "}
         Your Name*{" "}
@@ -12,6 +13,8 @@ function CreateWindow() {
           <input class="your-name" type="text" name="playername"></input>
         </br>{" "}
       </form>
+
+      {/* Group Title */}
       <form id="create-title" class="create-header">
         {" "}
         Group TiTle*{" "}
@@ -19,6 +22,8 @@ function CreateWindow() {
           <input class="group-title" type="text" name="groupname"></input>
         </br>
       </form>
+
+      {/* Creator Class */}
       <form id="player-class" class="create-header">
         <label for="player-class">Your Class*</label>{" "}
         <br>
@@ -34,6 +39,7 @@ function CreateWindow() {
         </br>
       </form>
 
+      {/* Group Difficulty */}
       <form id="create-difficulty" class="create-header">
         <label for="group-difficulty">DifficulTy*</label>
         <br>
@@ -45,6 +51,7 @@ function CreateWindow() {
         </br>
       </form>
 
+      {/* Creator Level */}
       <form id="creator-level" class="create-header">
         Your Level*
         <br>
@@ -52,6 +59,7 @@ function CreateWindow() {
         </br>
       </form>
 
+      {/* Group Activity */}
       <form id="group-activity" class="create-header">
         AcTiviTy
         <br>
@@ -59,6 +67,7 @@ function CreateWindow() {
         </br>
       </form>
 
+      {/* Group Description */}
       <form id="group-description" class="create-header">
         DescripTion
         <br>
@@ -70,6 +79,7 @@ function CreateWindow() {
         </br>
       </form>
 
+      {/* Group Platform */}
       <form id="your-platform" class="create-header">
         <label for="group-platform">PlaTform</label>
         <br>
@@ -82,6 +92,7 @@ function CreateWindow() {
         </br>
       </form>
 
+      {/* Create Group */}
       <button id="create-group-button">CreaTe</button>
     </div>
   );
