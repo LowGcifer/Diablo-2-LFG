@@ -72,4 +72,39 @@ h1 {
   font-family: exocetlight;
   font-size: 30px;
   font-weight: 700;
+  color: #d3f87c;
+}
+
+.window-input-small {
+  width: 287px;
+  height: 51px;
+  background-image: radial-gradient(#b8b8b8, #828282);
+}
+
+#window-input-long {
+  width: 509px;
+  height: 51px;
+  background-image: radial-gradient(#b8b8b8, #828282);
+}
+
+.window-input-box {
+  width: 51px;
+  height: 51px;
+  background-color: #b8b8b8;
+}
+
+#window-input-description {
+  width: 845px;
+  height: 246px;
+  background-image: radial-gradient(#b8b8b8, #989898);
+}
+
+.window-button {
+  width: 338px;
+  height: 87px;
+  background-image: radial-gradient(#c50007, #630004);
+  color: #d3f87c;
+  font-family: exocetlight;
+  font-size: 30px;
+  font-weight: 700;
 }
