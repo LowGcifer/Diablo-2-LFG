@@ -67,3 +67,9 @@ h1 {
   width: 932px;
   height: 723px;
 }
+
+.create-header {
+  font-family: exocetlight;
+  font-size: 30px;
+  font-weight: 700;
+}
