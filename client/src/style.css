@@ -3,6 +3,14 @@ body {
   overflow-x: hidden;
 }
 
+@font-face {
+  font-family: "exocetlight";
+  src: url("./assets/fonts/exl_____-webfont.woff2") format("woff2"),
+    url("./assets/fonts/exl_____-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
 #desktop-header {
   background-image: url("./components/Header/LFGLogo.png");
   height: 928px;
@@ -29,14 +37,6 @@ h1 {
   /* padding-top: 29px; */
 }
 
-@font-face {
-  font-family: "exocetlight";
-  src: url("./assets/fonts/exl_____-webfont.woff2") format("woff2"),
-    url("./assets/fonts/exl_____-webfont.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
-}
-
 .main-buttons {
   width: 284px;
   height: 124px;
@@ -49,6 +49,8 @@ h1 {
   font-weight: 700;
 }
 
+/* Buttons on home screen */
+
 #create-button {
   position: absolute;
   left: 626px;
@@ -58,6 +60,8 @@ h1 {
   position: absolute;
   right: 626px;
 }
+
+/* Create Window */
 
 #create-window {
   width: 932px;
