@@ -2,6 +2,7 @@ import Header from "../components/Header";
 import "../style.css";
 import CreateButton from "../components/CreateButton";
 import SearchButton from "../components/SearchButton";
+import CreateWindow from "../components/CreateWindow";
 
 const Home = () => {
   return (
