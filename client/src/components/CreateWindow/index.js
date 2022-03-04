@@ -1,8 +1,8 @@
 import React from "react";
 import "../../style.css";
 
-function CreateWindow() {
-  return (
+function CreateWindow(props) {
+  return props.trigger ? (
     <div id="create-window">
       {/* Creator Name */}
       <form id="create-name" class="create-header">
@@ -95,6 +95,8 @@ function CreateWindow() {
       {/* Create Group */}
       <button id="create-group-button">CreaTe</button>
     </div>
+  ) : (
+    ""
   );
 }
 

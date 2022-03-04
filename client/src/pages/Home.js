@@ -3,8 +3,11 @@ import "../style.css";
 import CreateButton from "../components/CreateButton";
 import SearchButton from "../components/SearchButton";
 import CreateWindow from "../components/CreateWindow";
+import { useState } from "react";
+import App from "../App";
 
-const Home = () => {
+function Home() {
+  const [createButtonPopup, setCreateButtonPopup] = useState(false);
   return (
     <div>
       <Header></Header>
@@ -17,9 +20,13 @@ const Home = () => {
         fits your criteria!
       </p>
       <CreateButton></CreateButton>
+      <CreateWindow
+        trigger={createButtonPopup}
+        setTrigger={setCreateButtonPopup}
+      ></CreateWindow>
       <SearchButton></SearchButton>
     </div>
   );
-};
+}
 
 export default Home;

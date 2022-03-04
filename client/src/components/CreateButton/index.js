@@ -1,12 +1,11 @@
 import React from "react";
+import CreateWindow from "../CreateWindow/index";
 import "../../style.css";
 
-function CreateButton() {
-  return (
-    <button id="create-button" class="main-buttons">
-      CreaTe Group
-    </button>
-  );
-}
+const CreateButton = (props) => (
+  <button id="create-button" class="main-buttons">
+    CreaTe Group
+  </button>
+);
 
 export default CreateButton;
