@@ -3,6 +3,7 @@ import "./App.css";
 import Header from "./components/Header";
 import Home from "./pages/Home.js";
 import React from "react";
+import { useState } from "react";
 import CreateWindow from "./components/CreateWindow/index";
 
 function App() {

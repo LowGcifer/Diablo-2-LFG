@@ -3,7 +3,7 @@ import "../../style.css";
 
 function SearchButton() {
   return (
-    <button id="search-button" class="main-buttons">
+    <button id="search-button" className="main-buttons">
       Join Group
     </button>
   );

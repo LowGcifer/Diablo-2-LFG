@@ -19,11 +19,22 @@ function Home() {
         Create your own group with your own parameters, or search for one that
         fits your criteria!
       </p>
-      <CreateButton></CreateButton>
+      <CreateButton onClick={() => setCreateButtonPopup(true)}></CreateButton>
+      <button
+        id="create-button"
+        className="main-buttons"
+        onClickCapture={() => setCreateButtonPopup(true)}
+        // trigger={createButtonPopup}
+        // setTrigger={setCreateButtonPopup}
+        onClick={() => console.log("Create Window")}
+      >
+        CreaTe Group
+      </button>
       <CreateWindow
         trigger={createButtonPopup}
         setTrigger={setCreateButtonPopup}
       ></CreateWindow>
+
       <SearchButton></SearchButton>
     </div>
   );
