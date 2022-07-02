@@ -17,8 +17,12 @@ function CreateWindow(props) {
         <input type="text" className="standard-input-field right-title"></input>
 
         {/* User Class */}
-        <p className="input-title">Your Class*</p>
-        <select name="player-class" id="player-classes">
+        <p className="input-title bottom-inputs-titles">Your Class*</p>
+        <select
+          className="standard-input-field bottom-inputs-titles"
+          name="player-class"
+          id="player-classes"
+        >
           <option value="amazon">Amazon</option>
           <option value="assassin">Assassin</option>
           <option value="necromancer">Necromancer</option>
@@ -29,11 +33,13 @@ function CreateWindow(props) {
         </select>
 
         {/* Difficulty */}
-        <p className="input-title right-title">DifficulTy*</p>
+        <p className="input-title right-title bottom-inputs-titles">
+          DifficulTy*
+        </p>
         <select
           name="group-difficulty"
           id="group-difficulties"
-          className="right-title"
+          className="right-title standard-input-field bottom-inputs-titles"
         >
           <option value="normal">Normal</option>
           <option value="nightmare">Nightmare</option>
@@ -41,12 +47,18 @@ function CreateWindow(props) {
         </select>
 
         {/* User Level */}
-        <p className="input-title">Your Level*</p>
-        <input type="text" className="standard-input-field"></input>
+        <p className="input-title bottom-inputs-titles">Your Level*</p>
+        <input
+          type="text"
+          className="standard-input-field bottom-inputs-titles"
+        ></input>
 
         {/* Activity */}
-        <p className="input-title right-title">AcTiviTy</p>
-        <input type="text" className="standard-input-field right-title"></input>
+        <p className="input-title right-title bottom-inputs-titles">AcTiviTy</p>
+        <input
+          type="text"
+          className="standard-input-field right-title bottom-inputs-titles"
+        ></input>
 
         {/* Group Description */}
         <p className="input-title">DescripTion</p>
