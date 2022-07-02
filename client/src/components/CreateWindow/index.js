@@ -8,7 +8,54 @@ function CreateWindow(props) {
         <button className="close-btn" onClick={() => props.setTrigger(false)}>
           X
         </button>
-        <p>This is The Create Window</p>
+        {/* User Name */}
+        <p className="input-title">Your Name*</p>
+        <input type="text" className="standard-input-field"></input>
+
+        {/* Group Title */}
+        <p className="input-title group-title">Group TiTle*</p>
+        <input type="text" className="standard-input-field"></input>
+
+        {/* User Class */}
+        <p className="input-title">Your Class*</p>
+        <select name="player-class" id="player-classes">
+          <option value="amazon">Amazon</option>
+          <option value="assassin">Assassin</option>
+          <option value="necromancer">Necromancer</option>
+          <option value="berserker">Berserker</option>
+          <option value="paladin">Paladin</option>
+          <option value="sorceress">Sorceress</option>
+          <option value="druid">Druid</option>
+        </select>
+
+        {/* Difficulty */}
+        <p className="input-title">DifficulTy*</p>
+        <select name="group-difficulty" id="group-difficulties">
+          <option value="normal">Normal</option>
+          <option value="nightmare">Nightmare</option>
+          <option value="hell">Hell</option>
+        </select>
+
+        {/* User Level */}
+        <p className="input-title">Your Level*</p>
+        <input type="text" className="standard-input-field"></input>
+
+        {/* Activity */}
+        <p className="input-title">AcTiviTy</p>
+        <input type="text" className="standard-input-field"></input>
+
+        {/* Group Description */}
+        <p className="input-title">DescripTion</p>
+        <input type="text"></input>
+
+        {/* Group Platform */}
+        <p className="input-title">PlaTform</p>
+        <select name="group-platform" id="group-platform">
+          <option value="PC">PC</option>
+          <option value="PlayStation">PlayStation</option>
+          <option value="Xbox">Xbox</option>
+          <option value="Switch">Switch</option>
+        </select>
 
         {props.children}
       </div>

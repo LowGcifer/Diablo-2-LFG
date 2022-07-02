@@ -18,7 +18,7 @@
   position: relative;
   padding: 32px;
   width: 100%;
-  max-width: 640px;
+  max-width: 720px;
   background-color: black;
   border: 5px red;
 }
@@ -32,4 +32,22 @@
   height: 39px;
   background-image: radial-gradient(#c50007, #630004);
   border: 10px rgb(233, 130, 130);
+}
+
+.input-title {
+  color: #d3f87c;
+  font-family: exocetlight;
+  font-size: 30px;
+  font-weight: 600;
+  border: 3px solid red;
+}
+
+.standard-input-field {
+  background-image: radial-gradient(#b8b8b8, 828282);
+}
+
+.group-title {
+  position: relative;
+  left: 500px;
+  bottom: 120px;
 }
