@@ -5,10 +5,10 @@ function CreateWindow(props) {
   return props.trigger ? (
     <div className="create-popup">
       <div className="create-popup-inner">
-        <p>This is the Create Window</p>
         <button className="close-btn" onClick={() => props.setTrigger(false)}>
           X
         </button>
+        <p>This is The Create Window</p>
 
         {props.children}
       </div>

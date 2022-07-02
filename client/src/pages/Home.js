@@ -35,7 +35,9 @@ function Home() {
         setTrigger={setCreateButtonPopup}
       ></CreateWindow>
 
-      <SearchButton></SearchButton>
+      <button id="search-button" className="main-buttons">
+        Join Group
+      </button>
     </div>
   );
 }
