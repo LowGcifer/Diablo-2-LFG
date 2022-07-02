@@ -13,8 +13,8 @@ function CreateWindow(props) {
         <input type="text" className="standard-input-field"></input>
 
         {/* Group Title */}
-        <p className="input-title group-title">Group TiTle*</p>
-        <input type="text" className="standard-input-field"></input>
+        <p className="input-title right-title">Group TiTle*</p>
+        <input type="text" className="standard-input-field right-title"></input>
 
         {/* User Class */}
         <p className="input-title">Your Class*</p>
@@ -29,8 +29,12 @@ function CreateWindow(props) {
         </select>
 
         {/* Difficulty */}
-        <p className="input-title">DifficulTy*</p>
-        <select name="group-difficulty" id="group-difficulties">
+        <p className="input-title right-title">DifficulTy*</p>
+        <select
+          name="group-difficulty"
+          id="group-difficulties"
+          className="right-title"
+        >
           <option value="normal">Normal</option>
           <option value="nightmare">Nightmare</option>
           <option value="hell">Hell</option>
@@ -41,8 +45,8 @@ function CreateWindow(props) {
         <input type="text" className="standard-input-field"></input>
 
         {/* Activity */}
-        <p className="input-title">AcTiviTy</p>
-        <input type="text" className="standard-input-field"></input>
+        <p className="input-title right-title">AcTiviTy</p>
+        <input type="text" className="standard-input-field right-title"></input>
 
         {/* Group Description */}
         <p className="input-title">DescripTion</p>
