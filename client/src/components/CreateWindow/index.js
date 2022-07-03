@@ -13,7 +13,9 @@ function CreateWindow(props) {
         <input type="text" className="standard-input-field"></input>
 
         {/* Group Title */}
-        <p className="input-title right-title">Group TiTle*</p>
+        <p className="input-title right-title" id="group-title-position">
+          Group TiTle*
+        </p>
         <input type="text" className="standard-input-field right-title"></input>
 
         {/* User Class */}
@@ -33,12 +35,15 @@ function CreateWindow(props) {
         </select>
 
         {/* Difficulty */}
-        <p className="input-title right-title bottom-inputs-titles">
+        <p
+          className="input-title right-title bottom-inputs-titles"
+          id="difficulty-position"
+        >
           DifficulTy*
         </p>
         <select
           name="group-difficulty"
-          id="group-difficulties"
+          id="difficulty-position"
           className="right-title standard-input-field bottom-inputs-titles"
         >
           <option value="normal">Normal</option>
@@ -47,17 +52,26 @@ function CreateWindow(props) {
         </select>
 
         {/* User Level */}
-        <p className="input-title bottom-inputs-titles">Your Level*</p>
+        <p className="input-title bottom-inputs-titles" id="level-position">
+          Your Level*
+        </p>
         <input
           type="text"
           className="standard-input-field bottom-inputs-titles"
+          id="level-position"
         ></input>
 
         {/* Activity */}
-        <p className="input-title right-title bottom-inputs-titles">AcTiviTy</p>
+        <p
+          className="input-title right-title bottom-inputs-titles"
+          id="activity-position"
+        >
+          AcTiviTy
+        </p>
         <input
           type="text"
           className="standard-input-field right-title bottom-inputs-titles"
+          id="activity-position"
         ></input>
 
         {/* Group Description */}
