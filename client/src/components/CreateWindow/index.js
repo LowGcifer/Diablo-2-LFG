@@ -9,8 +9,14 @@ function CreateWindow(props) {
           X
         </button>
         {/* User Name */}
-        <p className="input-title">Your Name*</p>
-        <input type="text" className="standard-input-field"></input>
+        <p className="input-title" id="your-name-position">
+          Your Name*
+        </p>
+        <input
+          type="text"
+          className="standard-input-field"
+          id="your-name-position"
+        ></input>
 
         {/* Group Title */}
         <p className="input-title right-title" id="group-title-position">
@@ -19,11 +25,16 @@ function CreateWindow(props) {
         <input type="text" className="standard-input-field right-title"></input>
 
         {/* User Class */}
-        <p className="input-title bottom-inputs-titles">Your Class*</p>
+        <p
+          className="input-title bottom-inputs-titles"
+          id="your-class-position"
+        >
+          Your Class*
+        </p>
         <select
           className="standard-input-field bottom-inputs-titles"
           name="player-class"
-          id="player-classes"
+          id="your-class-position"
         >
           <option value="amazon">Amazon</option>
           <option value="assassin">Assassin</option>
@@ -75,12 +86,16 @@ function CreateWindow(props) {
         ></input>
 
         {/* Group Description */}
-        <p className="input-title">DescripTion</p>
-        <input type="text"></input>
+        <p className="input-title" id="description-position">
+          DescripTion
+        </p>
+        <input type="text" id="description-input-box"></input>
 
         {/* Group Platform */}
-        <p className="input-title">PlaTform</p>
-        <select name="group-platform" id="group-platform">
+        <p className="input-title" id="group-platform-position">
+          PlaTform
+        </p>
+        <select name="group-platform" id="group-platform-position">
           <option value="PC">PC</option>
           <option value="PlayStation">PlayStation</option>
           <option value="Xbox">Xbox</option>

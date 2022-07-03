@@ -18,7 +18,7 @@
   position: relative;
   padding: 32px;
   width: 100%;
-  max-width: 760px;
+  max-width: 932px;
   max-height: 900px;
   background-color: black;
   border: 3px solid red;
@@ -26,7 +26,7 @@
 
 .close-btn {
   position: relative;
-  left: 725px;
+  left: 880px;
   color: #d3f87c;
   font-family: exocetlight;
   font-size: 30px;
@@ -58,7 +58,7 @@
 .right-title {
   position: relative;
   left: 320px;
-  bottom: 156px;
+  bottom: 225px;
 }
 
 .bottom-inputs-titles {
@@ -66,18 +66,45 @@
   bottom: 150px;
 }
 
+#your-name-position {
+  position: relative;
+  bottom: 69px;
+}
+
 #group-title-position {
-  bottom: 156px;
+  bottom: 225px;
+}
+
+#your-class-position {
+  position: relative;
+  bottom: 240px;
 }
 
 #difficulty-position {
-  bottom: 300px;
+  bottom: 390px;
 }
 
 #activity-position {
-  bottom: 456px;
+  bottom: 561px;
 }
 
 #level-position {
-  bottom: 300px;
+  bottom: 405px;
+}
+
+#description-position {
+  position: relative;
+  bottom: 575px;
+}
+
+#description-input-box {
+  position: relative;
+  width: 845px;
+  height: 246px;
+  bottom: 575px;
+}
+
+#group-platform-position {
+  position: relative;
+  bottom: 590px;
 }
