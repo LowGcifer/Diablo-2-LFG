@@ -110,6 +110,43 @@ function CreateWindow(props) {
           <option value="Switch">Switch</option>
         </select>
 
+        <button id="finalize-group-button">CreaTe</button>
+
+        {/* Side check buttons */}
+
+        {/* Max Players */}
+
+        <p className="side-input-title" id="max-players-input-title">
+          Max Players
+        </p>
+        <input
+          type="text"
+          className="square-box-input"
+          id="max-players-input"
+        ></input>
+
+        {/* Ladder */}
+
+        <p className="side-input-title" id="ladder-input-title">
+          Ladder
+        </p>
+        <input
+          type="checkbox"
+          className="square-box-input"
+          id="ladder-input"
+        ></input>
+
+        {/* Hardcore */}
+
+        <p className="side-input-title" id="hardcore-input-title">
+          Hardcore
+        </p>
+        <input
+          type="checkbox"
+          className="square-box-input"
+          id="hardcore-input"
+        ></input>
+
         {props.children}
       </div>
     </div>
