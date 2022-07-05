@@ -117,13 +117,21 @@ function CreateWindow(props) {
         {/* Max Players */}
 
         <p className="side-input-title" id="max-players-input-title">
-          Max Players
+          Max Players*
         </p>
-        <input
-          type="text"
+        <select
+          name="max-players"
           className="square-box-input"
           id="max-players-input"
-        ></input>
+        >
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+          <option value="6">6</option>
+          <option value="7">7</option>
+          <option value="8">8</option>
+        </select>
 
         {/* Ladder */}
 
