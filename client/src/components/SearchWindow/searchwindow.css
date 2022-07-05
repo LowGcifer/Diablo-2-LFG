@@ -1,0 +1,38 @@
+/* .create-popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: transparent;
+  color: #d3f87c;
+  font-family: exocetlight;
+  border: 5px red;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.create-popup-inner {
+  position: relative;
+  padding: 32px;
+  width: 100%;
+  max-width: 932px;
+  max-height: 480px;
+  background-color: black;
+  border: 3px solid red;
+}
+
+.close-btn {
+  position: relative;
+  left: 895px;
+  color: #d3f87c;
+  font-family: exocetlight;
+  font-size: 30px;
+  font-weight: 700;
+  width: 39px;
+  height: 39px;
+  background-image: radial-gradient(#c50007, #630004);
+  border: 10px rgb(233, 130, 130);
+} */
