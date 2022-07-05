@@ -19,7 +19,7 @@
   padding: 32px;
   width: 100%;
   max-width: 932px;
-  max-height: 900px;
+  max-height: 723px;
   background-color: black;
   border: 3px solid red;
 }
@@ -71,40 +71,81 @@
   bottom: 69px;
 }
 
+#your-name-input {
+  position: relative;
+  bottom: 85px;
+}
+
 #group-title-position {
   bottom: 225px;
 }
 
+#group-title-input {
+  position: relative;
+  bottom: 241px;
+}
+
 #your-class-position {
   position: relative;
-  bottom: 240px;
+  bottom: 256px;
+}
+
+#your-class-input {
+  position: relative;
+  bottom: 272px;
 }
 
 #difficulty-position {
-  bottom: 390px;
+  bottom: 406px;
+}
+
+#difficulty-input {
+  position: relative;
+  bottom: 422px;
 }
 
 #activity-position {
-  bottom: 561px;
+  bottom: 593px;
+}
+
+#activity-input {
+  position: relative;
+  bottom: 609px;
 }
 
 #level-position {
-  bottom: 405px;
+  bottom: 437px;
+}
+
+#level-input {
+  position: relative;
+  bottom: 453px;
 }
 
 #description-position {
   position: relative;
-  bottom: 575px;
+  bottom: 623px;
 }
 
 #description-input-box {
   position: relative;
   width: 845px;
-  height: 246px;
-  bottom: 575px;
+  height: 175px;
+  bottom: 639px;
 }
 
 #group-platform-position {
   position: relative;
-  bottom: 590px;
+  bottom: 653px;
+}
+
+#group-platform-input {
+  position: relative;
+  bottom: 669px;
+  left: 70px;
+}
+
+.square-box-input {
+  height: 51px;
+  width: 51px;
 }

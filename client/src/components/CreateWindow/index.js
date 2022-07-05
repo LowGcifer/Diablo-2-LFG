@@ -15,14 +15,18 @@ function CreateWindow(props) {
         <input
           type="text"
           className="standard-input-field"
-          id="your-name-position"
+          id="your-name-input"
         ></input>
 
         {/* Group Title */}
         <p className="input-title right-title" id="group-title-position">
           Group TiTle*
         </p>
-        <input type="text" className="standard-input-field right-title"></input>
+        <input
+          type="text"
+          className="standard-input-field right-title"
+          id="group-title-input"
+        ></input>
 
         {/* User Class */}
         <p
@@ -34,7 +38,7 @@ function CreateWindow(props) {
         <select
           className="standard-input-field bottom-inputs-titles"
           name="player-class"
-          id="your-class-position"
+          id="your-class-input"
         >
           <option value="amazon">Amazon</option>
           <option value="assassin">Assassin</option>
@@ -54,7 +58,7 @@ function CreateWindow(props) {
         </p>
         <select
           name="group-difficulty"
-          id="difficulty-position"
+          id="difficulty-input"
           className="right-title standard-input-field bottom-inputs-titles"
         >
           <option value="normal">Normal</option>
@@ -69,7 +73,7 @@ function CreateWindow(props) {
         <input
           type="text"
           className="standard-input-field bottom-inputs-titles"
-          id="level-position"
+          id="level-input"
         ></input>
 
         {/* Activity */}
@@ -82,7 +86,7 @@ function CreateWindow(props) {
         <input
           type="text"
           className="standard-input-field right-title bottom-inputs-titles"
-          id="activity-position"
+          id="activity-input"
         ></input>
 
         {/* Group Description */}
@@ -95,7 +99,11 @@ function CreateWindow(props) {
         <p className="input-title" id="group-platform-position">
           PlaTform
         </p>
-        <select name="group-platform" id="group-platform-position">
+        <select
+          name="group-platform"
+          class="square-box-input"
+          id="group-platform-input"
+        >
           <option value="PC">PC</option>
           <option value="PlayStation">PlayStation</option>
           <option value="Xbox">Xbox</option>
