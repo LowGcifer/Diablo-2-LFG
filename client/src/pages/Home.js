@@ -8,12 +8,10 @@ import { useState } from "react";
 import App from "../App";
 
 function Home() {
-  const [
-    createButtonPopup,
-    setCreateButtonPopup,
-    searchButtonPopup,
-    setSearchButtonPopup,
-  ] = useState(false);
+  const [createButtonPopup, setCreateButtonPopup] = useState(false);
+
+  const [searchButtonPopup, setSearchButtonPopup] = useState(false);
+
   return (
     <div>
       <Header></Header>

@@ -1,4 +1,4 @@
-/* .create-popup {
+.search-popup {
   position: fixed;
   top: 0;
   left: 0;
@@ -14,7 +14,16 @@
   align-items: center;
 }
 
-.create-popup-inner {
+.search-popup-inner {
+  position: relative;
+  max-width: 932px;
+  max-height: 480px;
+  width: 100%;
+  border: 3px solid red;
+  background-color: black;
+  padding: 32px;
+}
+/* .create-popup-inner {
   position: relative;
   padding: 32px;
   width: 100%;
