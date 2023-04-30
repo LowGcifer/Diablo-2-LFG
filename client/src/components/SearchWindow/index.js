@@ -69,6 +69,21 @@ function SearchWindow(props) {
           </select>
         </div>
 
+        {/* Group Platform */}
+        <div className="search-group-platform">
+          <p className="input-title">PlaTform</p>
+          <select
+            name="group-platform"
+            class="square-box-input"
+            // id="group-platform-input"
+          >
+            <option value="PC">PC</option>
+            <option value="PlayStation">PlayStation</option>
+            <option value="Xbox">Xbox</option>
+            <option value="Switch">Switch</option>
+          </select>
+        </div>
+
         {props.children}
       </div>
     </div>

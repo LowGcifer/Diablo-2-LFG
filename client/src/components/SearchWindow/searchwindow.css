@@ -39,6 +39,12 @@
   bottom: 125px;
 }
 
+.search-group-platform {
+  position: relative;
+  bottom: 665px;
+  left: 325px;
+}
+
 /* .create-popup-inner {
   position: relative;
   padding: 32px;
