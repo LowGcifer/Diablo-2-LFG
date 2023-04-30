@@ -23,6 +23,22 @@
   background-color: black;
   padding: 32px;
 }
+
+.search-class-input {
+  position: relative;
+  top: 50px;
+}
+
+.search-level-input {
+  position: relative;
+  top: 35px;
+}
+
+.search-max-player-input {
+  position: relative;
+  bottom: 125px;
+}
+
 /* .create-popup-inner {
   position: relative;
   padding: 32px;
